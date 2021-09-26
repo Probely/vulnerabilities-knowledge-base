@@ -49,7 +49,7 @@ When the browser sees this, it will remember, for the given number of seconds, t
 
 Instead of changing your application, you should have the web server setting the header for you. If you are using Apache, just enable `mod_headers` and add the following line to your virtual host configuration: 
 ```
-Header add Strict-Transport-Security "max-age=15768000;includeSubdomains"
+Header always set Strict-Transport-Security "max-age=15768000;includeSubdomains"
 ```
 
 If you are using NGINX, just add this line to your host configuration: 
