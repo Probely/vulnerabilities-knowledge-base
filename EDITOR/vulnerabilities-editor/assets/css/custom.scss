@@ -1,0 +1,14 @@
+.wrapper {
+  max-width: 1500px;
+}
+
+.post-title {
+  color: #4f35dd;
+}
+
+a {
+  color: #4f35dd;
+  &:visited {
+    color: #4f35dd;
+  }
+}

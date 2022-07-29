@@ -33,11 +33,27 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-tabs
 
 collections:
   vulnerabilities:
     output: true
     permalink: /:collection/:name
+
+defaults: 
+  - scope:
+      path: ""
+      type: "vulnerabilities"
+    values:
+      layout: "vulnerability"
+      sitemap: false
+
+exclude:
+  - debug
+  - rdebug
+  - Gemfile
+  - Gemfile.lock
+  - run.sh
 
 # Exclude from processing.
 # The following items will not be processed, by default.
