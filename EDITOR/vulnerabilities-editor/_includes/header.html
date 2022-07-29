@@ -3,10 +3,20 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+   
+    <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
+
+    <a href="{{ "/" | relative_url }}"></a>
+    <a href="/">
+      <div class="probely-logo site-title">
+        <img src="{{site.baseurl}}/assets/images/probely-logo.svg" alt="Probely Vulnerability Preview">
+        &nbsp; <small><i>Vulnerability</i>&nbsp;<i>Preview</i></small> 
+      </div>
+    </a>
 
     {%- if page_paths -%}
       <nav class="site-nav">
+   
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
