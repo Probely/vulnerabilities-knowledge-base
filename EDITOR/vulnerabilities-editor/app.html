@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+<h2>Index</h2>
+
+<ul>
+  {% for vulnerability in site.vulnerabilities %}
+    <li>
+      <h2>{{ vulnerability.title }}</h2>
+      <p>{{ vulnerability.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
