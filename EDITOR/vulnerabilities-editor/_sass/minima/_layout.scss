@@ -136,6 +136,7 @@
   @include relative-font-size(0.9375);
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
+  width: 100%;
   @extend %clearfix;
 }
 

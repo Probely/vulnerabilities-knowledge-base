@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Random #2"
 date:   2022-07-28 16:19:21 +0100
 categories: jekyll update
 ---

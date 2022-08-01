@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+*Probely Vulnerability Editor* is an open-source tool that allows you to preview the result of your changes before committing to the community repository.
+You can edit already existant vulnerabilities, either by adding solutions in missing technologies or to *fix* any incoherent information on our data.
 
-You can find the source code for Minima at GitHub:d43243
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Your contribution is important to us. 🤝
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# How to edit a vulnerability
+Each vulnerability is contained in a single file (```.md``` or ```.markdown``` extension). 
 
-
-[jekyll-organization]: https://github.com/jekyll
+All the vulnerabity files must be kept in the ```_vulnerabilities``` folder.
+When you feel like everything is done, submit your ```.md``` or ```.markdown``` file to our repository so we can review it and merge it ASAP.
