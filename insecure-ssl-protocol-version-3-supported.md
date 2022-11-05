@@ -1,0 +1,31 @@
+---
+name: Insecure SSL protocol version 3 supported
+severity: medium
+cvss-score: 7.4
+cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+cwe-id: CWE-327
+cwe-name: Use of a Broken or Risky Cryptographic Algorithm
+compliance:
+  owasp10: A2
+  pci: 4.1, 6.5.4
+
+---            
+
+SSL protocol version 3 is outdated and insecure. This version has multiple design flaws that may allow an attacker to eavesdrop on SSL-enabled communications.
+
+SSL version 3 is not immediately broken but has various weaknesses that undermine the trust in the protocol.
+
+In any case, the attacker needs to be positioned between any endpoint participating in the connection, so it can eavesdrop and intercept the communications. This is fairly common considering the frequency people establish connections over open Wi-Fi.
+
+## How to fix
+
+{% tabs insecure-ssl-protocol-version-3-supported %}
+{% tab insecure-ssl-protocol-version-3-supported generic %}
+To fix this vulnerability, you need to disable SSL version 3, and enable TLS 1.2 and TLS 1.3, if they are not enabled already.
+
+You should disable SSL 3, and enable TLS 1.2 and above. If you are keeping SSL and older TLS versions (i.e. TLS <= 1.1) enabled to support "older devices", do note that as of 2018, TLS 1.2 is at 94%+ adoption. So there is a strong argument to keep only TLS 1.2 and above enabled.
+
+You must change the web server configuration to enable or disable the protocols, so this will depend on your particular web server configuration procedures.
+{% endtab %}
+
+{% endtabs %}
