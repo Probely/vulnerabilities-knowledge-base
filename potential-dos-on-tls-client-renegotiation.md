@@ -1,42 +1,29 @@
+---
+name: Potential DoS on TLS Client Renegotiation
+severity: low
+cvss-score: 5.3
+cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+cwe-id: CWE-264
+cwe-name: Permissions, Privileges, and Access Controls
+compliance:
+  owasp10: A2
+  pci: 4.1, 6.5.4
 
-# Name
+---            
 
-Potential DoS on TLS Client Renegotiation
+The server allows client-initiated renegotiation handshakes. Renegotiation allows a client to negotiate new session parameters, such as a new cipher suite. 
 
-# Severity
-
-Low
-
-# CVSS Score
-
-5.3
-
-# CVSS Vector
-
-CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-
-# CWE ID
-
-CWE-264
-
-# CWE NAME 
-
-Permissions, Privileges, and Access Controls
-
-# Affected Compliance
-
-OWASP Top 10: A3
-
-PCI-DSS: 4.1, 6.5.4
-
-# Description
-
-The server does not appear to limit the number of client-initiated renegotiation handshakes. Typically, when a client starts a new TLS connection, the server will expend more CPU resources than the client. The client may exploit this resource usage asymmetry to launch a DoS attack over a single TCP connection.
-
-After connecting, the client may request a large number of renegotiation attempts until the server runs out of CPU. Since a malicious client may launch the attack over a single TCP connection, it could evade rate-limiting rules that may already be in-place by firewalls (e.g., maximum connections per second).
+When a client starts a new TLS connection, the server will expend more CPU resources than the client. The client may exploit this resource usage asymmetry to launch a DoS attack. It may request a large number of renegotiation attempts until the server runs out of CPU. 
 
 The CVE for this type of vulnerability is CVE-2011-1473.
 
-# Generic How-to fix
+## How to fix
 
-You should ensure that both the server and the TLS library are updated to the most recent versions.
+{% tabs potential-dos-on-tls-client-renegotiation %}
+{% tab potential-dos-on-tls-client-renegotiation generic %}
+TLS 1.3 explicitly forbids renegotiation, since it closes a window of opportunity for an attack.
+
+A strong argument in favor of disabling renegotiation is the fact that none of the world's top 5 sites by traffic allow renegotiation. If they serve most of the world and they don't need renegotiation, the remaining question is: do you really have a valid reason for allowing renegotiation?
+{% endtab %}
+
+{% endtabs %}

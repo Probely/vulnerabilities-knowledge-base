@@ -1,33 +1,15 @@
+---
+name: WordPress plugin with known vulnerabilities
+severity: high
+cvss-score: 9.1
+cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+cwe-id: CWE-1035
+cwe-name: OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities
+compliance:
+  owasp10: A5, A6
+  pci: '6.2'
 
-# Name
-
-WordPress plugin with known vulnerabilities
-
-# Severity
-
-High
-
-# CVSS Score
-
-9.1
-
-# CVSS Vector
-
-CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
-
-# CWE ID
-
-CWE-1035
-
-# CWE NAME 
-
-OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities
-
-# Affected Compliance
-
-OWASP Top 10: A6, A9
-
-# Description
+---            
 
 The Wordpress application has plugins with multiple known vulnerabilities that may be used by attackers to harmful the clients of the application or the application itself.
 
@@ -36,8 +18,10 @@ However, more serious vulnerabilities may allow the attacker to login with the a
 
 This is a common problem amongst WordPress plugins, since they become outdated quickly, with vulnerabilities being discovered weekly and updated being published at the same pace. It is also frequent for plugins to be no longer maintained, leaving users without updates that fix published vulnerabilities.
 
-# Generic How-to fix
+## How to fix
 
+{% tabs wordpress-plugin-with-known-vulnerabilities %}
+{% tab wordpress-plugin-with-known-vulnerabilities generic %}
 The correct solution is to update all plugins to their latest stable version, which will fix any known vulnerability, improving the security of the web application.
 
 The easiest method to install the latest version is through the plugin update feature:
@@ -48,3 +32,6 @@ The easiest method to install the latest version is through the plugin update fe
 
 
 If you cannot update through the site (for instance, if the update process fails), you will have to do it manually. The manual update process is described at each plugin page. Look in the details of each plugin for its page.
+{% endtab %}
+
+{% endtabs %}

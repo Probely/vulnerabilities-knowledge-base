@@ -1,35 +1,15 @@
+---
+name: Untrusted TLS certificate
+severity: medium
+cvss-score: 5.8
+cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:L
+cwe-id: CWE-16
+cwe-name: Configuration
+compliance:
+  owasp10: A2
+  pci: 4.1, 6.5.4
 
-# Name
-
-Untrusted TLS certificate
-
-# Severity
-
-Medium
-
-# CVSS Score
-
-5.8
-
-# CVSS Vector
-
-CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:L
-
-# CWE ID
-
-CWE-16
-
-# CWE NAME 
-
-Configuration
-
-# Affected Compliance
-
-OWASP Top 10: A3
-
-PCI-DSS: 4.1, 6.5.4
-
-# Description
+---            
 
 The certificate sent by the server is not trusted.
 
@@ -40,6 +20,11 @@ This may be due to one of the following reasons:
 
 If this problem is intermittent, it might be because your site is behind a load balancer, and one of the servers is misconfigured or is sending an incorrect certificate.
 
-# Generic How-to fix
+## How to fix
 
+{% tabs untrusted-tls-certificate %}
+{% tab untrusted-tls-certificate generic %}
 To fix this issue, you should address all of the issues identified below.
+{% endtab %}
+
+{% endtabs %}

@@ -1,33 +1,15 @@
+---
+name: WordPress version with known vulnerabilities
+severity: high
+cvss-score: 9.1
+cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+cwe-id: CWE-1035
+cwe-name: OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities
+compliance:
+  owasp10: A5, A6
+  pci: '6.2'
 
-# Name
-
-WordPress version with known vulnerabilities
-
-# Severity
-
-High
-
-# CVSS Score
-
-9.1
-
-# CVSS Vector
-
-CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
-
-# CWE ID
-
-CWE-1035
-
-# CWE NAME 
-
-OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities
-
-# Affected Compliance
-
-OWASP Top 10: A6, A9
-
-# Description
+---            
 
 The installed version of WordPress has multiple known vulnerabilities that may be used by attackers to harmful the clients of the application or the application itself.
 
@@ -36,8 +18,10 @@ However, more serious vulnerabilities may allow the attacker to login with the a
 
 This is a common problem amongst WordPress installations, since it becomes outdated quickly, with vulnerabilities being discovered weekly and updated being published at the same pace.
 
-# Generic How-to fix
+## How to fix
 
+{% tabs wordpress-version-with-known-vulnerabilities %}
+{% tab wordpress-version-with-known-vulnerabilities generic %}
 The correct solution is to update WordPress to its latest stable version, which will fix any known vulnerability, improving the security of the web application.
 
 The easiest method to install the latest version is through the WordPress update feature:
@@ -48,3 +32,6 @@ The easiest method to install the latest version is through the WordPress update
 
 
 If you cannot update through the site (for instance, if the update process fails), you will have to do it manually. The manual update process is described at the WordPress site, at `https://codex.wordpress.org/Updating_WordPress#Manual_Update`.
+{% endtab %}
+
+{% endtabs %}
