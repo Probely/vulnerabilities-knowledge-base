@@ -80,7 +80,9 @@ For the Apache server, the following snippet may be used to enable TLS 1.2+ and 
     SSLHonorCipherOrder   on
     SSLCompression           off
     ...
-</VirtualHost>```
+</VirtualHost>
+```
+
 {% endtab %}
 
 {% endtabs %}
