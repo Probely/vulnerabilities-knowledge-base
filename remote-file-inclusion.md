@@ -5,7 +5,8 @@ cvss-score: 5.3
 cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: '98'
 cwe-name: Improper Control of Filename for Include/Require Statement in PHP Program
-compliance: {}
+compliance:
+  pci: 6.5.1
 
 ---            
 

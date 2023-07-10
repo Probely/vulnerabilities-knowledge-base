@@ -24,7 +24,7 @@ To prevent a Server-side JavaScript injection vulnerability, you should validate
 You should also consider the following:
 * Do not use the `eval()` function to parse user inputs. 
 * If you need to parse JSON input, use a safer alternative such as `JSON.parse()`.
-* Include "```use strict```" at the beginning of a function.
+* Include ```"use strict";``` at the beginning of a function.
 {% endtab %}
 
 {% endtabs %}
