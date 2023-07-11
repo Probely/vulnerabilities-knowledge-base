@@ -5,7 +5,9 @@ cvss-score: 8.6
 cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L
 cwe-id: CWE-94
 cwe-name: Improper Control of Generation of Code ('Code Injection')
-compliance: {}
+compliance:
+  owasp10: A3
+  pci: 6.5.1
 
 ---            
 

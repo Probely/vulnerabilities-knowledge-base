@@ -80,15 +80,14 @@ To fix this issue you need to disable TLS 1.0. We also recommend that higher TLS
 
 For most systems, enabling or disabling TLS versions requires a change on the web server configuration file. Therefore, refer to your web server documentation on how to do that.
 
-For the Nginx server, you may use the following snippet as a guideline:
+If using an Apache server, please refer to the following example:
 
 ```
-server {
-    listen 443 ssl;
+<VirtualHost *:443>
     ...
-    ssl_protocols TLSv1.2 TLSv1.3;
+    SSLProtocol        -all +TLSv1.2 +TLSv1.3
     ...
-}
+</VirtualHost>
 ```
 
 Note that we are enabling TLS 1.2 and TLS 1.3, reflecting our ideal scenario.
