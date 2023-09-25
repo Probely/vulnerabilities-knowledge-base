@@ -5,7 +5,8 @@ cvss-score: 5.3
 cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: CWE-200
 cwe-name: Information Exposure
-compliance: {}
+compliance:
+  owasp10: A5
 
 ---            
 
