@@ -15,7 +15,7 @@ We found a Set-Cookie header with the SameSite cookie attribute set to None. Alt
 
 {% tabs cookie-with-samesite-attribute-set-to-none %}
 {% tab cookie-with-samesite-attribute-set-to-none generic %}
-Change the SameSite cookie attribute to lax or, if possible, change it to strict.
+Set the SameSite cookie attribute to `strict` to mitigate CSRF attacks. If `strict` breaks any functionality, use `lax` instead, which gives you protection against POST-based CSRF, but not GET ones.
 {% endtab %}
 
 {% endtabs %}
