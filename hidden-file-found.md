@@ -1,11 +1,13 @@
 ---
-name: Hidden File Found
+name: Hidden file found
 severity: low
 cvss-score: 5.3
 cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: CWE-538
 cwe-name: File and Directory Information Exposure
-compliance: {}
+compliance:
+  ISO 27001: A.8.4, A.8.9, A.8.15, A.8.26
+  owasp10: A1, A5
 
 ---            
 

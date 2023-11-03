@@ -5,7 +5,8 @@ cvss-score: 9.8
 cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
 cwe-id: ''
 cwe-name: ''
-compliance: {}
+compliance:
+  ISO 27001: A.5.33, A.5.34, A.8.3, A.8.9, A.8.12
 
 ---            
 

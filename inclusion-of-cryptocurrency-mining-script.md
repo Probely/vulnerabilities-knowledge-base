@@ -5,7 +5,8 @@ cvss-score: 5.5
 cvss-vector: CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:L/A:L
 cwe-id: CWE-830
 cwe-name: Inclusion of Web Functionality from an Untrusted Source
-compliance: {}
+compliance:
+  owasp10: A8
 
 ---            
 

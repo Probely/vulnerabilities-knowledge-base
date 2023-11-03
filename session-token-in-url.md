@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:N
 cwe-id: CWE-200
 cwe-name: Exposure of Sensitive Information to an Unauthorized Actor
 compliance:
+  ISO 27001: A.8.2, A.8.3, A.8.26
   owasp10: A2, A7
   pci: 6.5.10
 

@@ -5,7 +5,10 @@ cvss-score: 3.1
 cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
 cwe-id: CWE-1275
 cwe-name: Sensitive Cookie with Improper SameSite Attribute
-compliance: {}
+compliance:
+  ISO 27001: A.5.14, A.8.9, A.8.24, A.8.26
+  owasp10: A2, A7
+  pci: 4.1, 6.5.4, 6.5.10
 
 ---            
 

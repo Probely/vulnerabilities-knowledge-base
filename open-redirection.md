@@ -5,7 +5,8 @@ cvss-score: 8.2
 cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:N
 cwe-id: CWE-601
 cwe-name: URL Redirection to Untrusted Site ('Open Redirect')
-compliance: {}
+compliance:
+  ISO 27001: A.8.26
 
 ---            
 

@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
 cwe-id: CWE-352
 cwe-name: Cross-Site Request Forgery (CSRF)
 compliance:
+  ISO 27001: A.8.2, A.8.3, A.8.26
   owasp10: A7
   pci: 6.5.9, 6.5.10
 
