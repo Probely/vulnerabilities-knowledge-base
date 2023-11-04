@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
 cwe-id: CWE-319
 cwe-name: Cleartext Transmission of Sensitive Information
 compliance:
+  ISO 27001: A.5.14, A.8.24, A.8.26
   owasp10: A2
   pci: 4.1, 6.5.4
 

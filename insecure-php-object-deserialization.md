@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
 cwe-id: CWE-502
 cwe-name: Deserialization of Untrusted Data
 compliance:
+  ISO 27001: A.8.26
   owasp10: A8
 
 ---            

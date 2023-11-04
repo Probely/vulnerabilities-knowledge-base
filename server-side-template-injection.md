@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: CWE-94
 cwe-name: Improper Control of Generation of Code ('Code Injection')
 compliance:
+  ISO 27001: A.5.33, A.5.34, A.8.3, A.8.12, A.8.26
   owasp10: A3
   pci: 6.5.1
 

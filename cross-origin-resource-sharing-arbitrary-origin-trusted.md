@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
 cwe-id: CWE-942
 cwe-name: Permission Cross-Domain Policy with Untrusted Domains
 compliance:
+  ISO 27001: A.8.2, A.8.3, A.8.26
   owasp10: A1
   pci: 6.5.8
 

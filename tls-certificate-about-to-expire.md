@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:N
 cwe-id: CWE-324
 cwe-name: Use of a Key Past its Expiration Date
 compliance:
+  ISO 27001: A.8.9
   owasp10: A2
 
 ---            

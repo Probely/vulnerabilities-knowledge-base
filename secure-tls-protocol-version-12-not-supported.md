@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N
 cwe-id: CWE-326
 cwe-name: Inadequate Encryption Strength
 compliance:
+  ISO 27001: A.5.14, A.8.9, A.8.24
   owasp10: A2
   pci: 4.1, 6.5.4
 
