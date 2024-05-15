@@ -1,11 +1,12 @@
 ---
 name: Heartbleed
 severity: high
-cvss-score: 8.8
-cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+cvss-score: 7.5
+cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
 cwe-id: CWE-126
 cwe-name: Buffer over-read
 compliance:
+  HIPAA: 164.306(a)
   ISO 27001: A.5.33, A.5.34, A.8.3, A.8.9, A.8.12
   owasp10: A6
 

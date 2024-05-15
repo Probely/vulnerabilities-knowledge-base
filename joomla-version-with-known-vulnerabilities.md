@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
 cwe-id: CWE-1035
 cwe-name: OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities
 compliance:
+  HIPAA: 164.306(a)
   ISO 27001: A.8.9
   owasp10: A5, A6
   pci: '6.2'

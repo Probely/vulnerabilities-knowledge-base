@@ -1,12 +1,13 @@
 ---
 name: 'Cross Origin Resource Sharing: Arbitrary Origin Trusted'
 severity: low
-cvss-score: 8.1
-cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+cvss-score: 6.1
+cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
 cwe-id: CWE-942
 cwe-name: Permission Cross-Domain Policy with Untrusted Domains
 compliance:
-  ISO 27001: A.8.2, A.8.3, A.8.26
+  HIPAA: 164.306(a), 164.312(a)(1), 164.312(d)
+  ISO 27001: A.8.2, A.8.3
   owasp10: A1
   pci: 6.5.8
 

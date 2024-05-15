@@ -3,9 +3,11 @@ name: Log4Shell
 severity: high
 cvss-score: 10.0
 cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
-cwe-id: ''
-cwe-name: ''
+cwe-id: CWE-917
+cwe-name: Improper Neutralization of Special Elements used in an Expression Language
+  Statement ('Expression Language Injection')
 compliance:
+  HIPAA: 164.306(a)
   ISO 27001: A.5.33, A.5.34, A.8.3, A.8.9, A.8.12
   owasp10: A3
   pci: 6.5.1

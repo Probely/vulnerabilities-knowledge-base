@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: CWE-548
 cwe-name: Exposure of Information Through Directory Listing
 compliance:
+  HIPAA: 164.306(a), 164.312(a)(1), 164.312(d)
   ISO 27001: A.8.4, A.8.9
   owasp10: A1, A5
 

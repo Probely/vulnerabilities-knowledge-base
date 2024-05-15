@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:L/A:L
 cwe-id: CWE-830
 cwe-name: Inclusion of Web Functionality from an Untrusted Source
 compliance:
+  HIPAA: 164.306(a), 164.312(c)(1)
   owasp10: A8
 
 ---            

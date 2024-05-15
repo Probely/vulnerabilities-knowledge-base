@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: CWE-200
 cwe-name: Exposure of Sensitive Information to an Unauthorized Actor
 compliance:
+  HIPAA: 164.306(a)
   ISO 27001: A.8.4, A.8.9
   pci: 6.5.5
 
@@ -24,7 +25,7 @@ To fix this vulnerability you need to prevent the full path from being displayed
 Disabling verbose errors is the best approach, since it prevents current and future errors from being displayed, without the need to change individual errors and logging.
 {% endtab %}
 
-{% tab full-path-disclosure wordpress %}
+{% tab full-path-disclosure suspected-wordpress %}
 By default, Wordpress installations expose some PHP files that when directly accessed through a browser will show an error that includes a full path from the application server, if you allow the application to display errors to clients.
 
 The root problem, in this case, is that your application shows these errors to whoever visits that URL. 

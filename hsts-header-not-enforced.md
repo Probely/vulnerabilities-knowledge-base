@@ -1,11 +1,12 @@
 ---
 name: HSTS header not enforced
 severity: low
-cvss-score: 7.4
-cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+cvss-score: 4.2
+cvss-vector: CVSS:3.0/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
 cwe-id: CWE-319
 cwe-name: Cleartext Transmission of Sensitive Information
 compliance:
+  HIPAA: 164.306(a), 164.312(c)(1), 164.312(e)(1)
   ISO 27001: A.5.14, A.8.9, A.8.24
   owasp10: A2, A5
   pci: 4.1, 6.5.4

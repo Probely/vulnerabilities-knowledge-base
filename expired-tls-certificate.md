@@ -1,11 +1,12 @@
 ---
 name: Expired TLS certificate
 severity: medium
-cvss-score: 5.8
-cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:L
+cvss-score: 5.3
+cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
 cwe-id: CWE-324
 cwe-name: Use of a Key Past its Expiration Date
 compliance:
+  HIPAA: 164.306(a), 164.312(c)(1), 164.312(e)(1)
   ISO 27001: A.5.14, A.8.9, A.8.24
   owasp10: A2
   pci: 4.1, 6.5.4
