@@ -6,7 +6,8 @@ cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
 cwe-id: CWE-611
 cwe-name: Improper Restriction of XML External Entity Reference
 compliance:
-  ISO 27001: A.8.9, A.8.26
+  HIPAA: 164.306(a)
+  ISO 27001: A.8.9
   owasp10: A5
 
 ---            

@@ -6,7 +6,7 @@ cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
 cwe-id: CWE-614
 cwe-name: Sensitive Cookie in HTTPS Session Without 'Secure' Attribute
 compliance:
-  ISO 27001: A.8.26
+  HIPAA: 164.306(a)
   owasp10: A2, A7
   pci: 6.5.10
 

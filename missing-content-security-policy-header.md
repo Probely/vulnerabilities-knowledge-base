@@ -3,9 +3,10 @@ name: Missing Content Security Policy header
 severity: low
 cvss-score: 3.7
 cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
-cwe-id: ''
-cwe-name: ''
+cwe-id: CWE-1021
+cwe-name: Improper Restriction of Rendered UI Layers or Frames
 compliance:
+  HIPAA: 164.306(a)
   ISO 27001: A.8.9
   owasp10: A5
 

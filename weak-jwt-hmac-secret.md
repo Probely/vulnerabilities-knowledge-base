@@ -6,7 +6,8 @@ cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
 cwe-id: CWE-345
 cwe-name: Insufficient Verification of Data Authenticity
 compliance:
-  ISO 27001: A.8.2, A.8.3, A.8.5, A.8.24, A.8.26
+  HIPAA: 164.306(a), 164.312(c)(1)
+  ISO 27001: A.8.2, A.8.3, A.8.5, A.8.24
   owasp10: A8
 
 ---            

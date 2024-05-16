@@ -7,7 +7,7 @@ cwe-id: CWE-79
 cwe-name: Improper Neutralization of Input During Web Page Generation ('Cross-site
   Scripting')
 compliance:
-  ISO 27001: A.8.26
+  HIPAA: 164.306(a)
   owasp10: A3
   pci: 6.5.7
 

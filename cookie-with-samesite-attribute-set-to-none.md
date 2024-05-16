@@ -6,7 +6,8 @@ cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
 cwe-id: CWE-1275
 cwe-name: Sensitive Cookie with Improper SameSite Attribute
 compliance:
-  ISO 27001: A.5.14, A.8.9, A.8.24, A.8.26
+  HIPAA: 164.306(a), 164.312(c)(1), 164.312(e)(1)
+  ISO 27001: A.5.14, A.8.9, A.8.24
   owasp10: A2, A7
   pci: 4.1, 6.5.4, 6.5.10
 
