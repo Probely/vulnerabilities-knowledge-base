@@ -9,6 +9,7 @@ compliance:
   HIPAA: 164.306(a), 164.312(c)(1)
   ISO 27001: A.8.2, A.8.3, A.8.5, A.8.24
   owasp10: A8
+  PCI v4.0: pci4-6.2.4
 
 ---            
 

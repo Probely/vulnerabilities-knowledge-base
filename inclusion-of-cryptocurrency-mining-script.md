@@ -8,6 +8,7 @@ cwe-name: Inclusion of Web Functionality from an Untrusted Source
 compliance:
   HIPAA: 164.306(a), 164.312(c)(1)
   owasp10: A8
+  PCI v4.0: pci4-6.2.4
 
 ---            
 

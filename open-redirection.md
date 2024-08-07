@@ -7,6 +7,7 @@ cwe-id: CWE-601
 cwe-name: URL Redirection to Untrusted Site ('Open Redirect')
 compliance:
   HIPAA: 164.306(a)
+  PCI v4.0: pci4-6.2.4
 
 ---            
 
