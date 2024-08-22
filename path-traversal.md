@@ -10,6 +10,7 @@ compliance:
   ISO 27001: A.5.33, A.5.34, A.8.3, A.8.4, A.8.12
   owasp10: A1
   pci: 6.5.8
+  PCI v4.0: pci4-6.2.4
 
 ---            
 

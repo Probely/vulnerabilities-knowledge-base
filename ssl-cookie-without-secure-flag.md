@@ -9,6 +9,7 @@ compliance:
   HIPAA: 164.306(a)
   owasp10: A2, A7
   pci: 6.5.10
+  PCI v4.0: pci4-6.2.4
 
 ---            
 
