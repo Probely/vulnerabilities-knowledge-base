@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vulnerabilities-knowledge-base
+spec:
+  type: documentation
+  lifecycle: "-"
+  owner: probely-backend
