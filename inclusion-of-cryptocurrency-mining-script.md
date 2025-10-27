@@ -1,14 +1,14 @@
 ---
 name: Inclusion of cryptocurrency mining script
 severity: high
-cvss-score: 5.5
-cvss-vector: CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:L/A:L
+cvss-score: 7.1
+cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L
 cwe-id: CWE-830
 cwe-name: Inclusion of Web Functionality from an Untrusted Source
 compliance:
   HIPAA: 164.306(a), 164.312(c)(1)
   owasp10: A8
-  PCI v4.0: pci4-6.2.4
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 

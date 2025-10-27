@@ -2,14 +2,14 @@
 name: HTTP TRACE method enabled
 severity: low
 cvss-score: 3.7
-cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+cvss-vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: CWE-16
 cwe-name: Configuration
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.8.9
   owasp10: A5
-  PCI v4.0: pci4-6.2.4
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 

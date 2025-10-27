@@ -5,7 +5,12 @@ cvss-score: 7.2
 cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:L
 cwe-id: CWE-1395
 cwe-name: Dependency on Vulnerable Third-Party Component
-compliance: {}
+compliance:
+  HIPAA: 164.306(a)
+  ISO 27001: A.8.9
+  owasp10: A5, A6
+  pci: '6.2'
+  PCI-DSS v4.0.1: 6.2.4, 6.3.3
 
 ---            
 

@@ -2,14 +2,14 @@
 name: Full path disclosure
 severity: low
 cvss-score: 5.3
-cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: CWE-200
 cwe-name: Exposure of Sensitive Information to an Unauthorized Actor
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.8.4, A.8.9
   pci: 6.5.5
-  PCI v4.0: pci4-6.2.4
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 

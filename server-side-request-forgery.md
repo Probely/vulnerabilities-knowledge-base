@@ -1,16 +1,16 @@
 ---
 name: Server-side request forgery
-severity: high
+severity: medium
 cvss-score: 4.8
 cvss-vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
 cwe-id: CWE-918
 cwe-name: Server-Side Request Forgery (SSRF)
 compliance:
   HIPAA: 164.306(a)
-  ISO 27001: A.5.33, A.5.34, A.8.3, A.8.4, A.8.12
+  ISO 27001: A.5.33, A.5.34, A.8.3, A.8.4, A.8.12, A.8.25
   owasp10: A10
   pci: 6.5.1
-  PCI v4.0: pci4-6.2.4
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 

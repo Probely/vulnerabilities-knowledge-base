@@ -1,8 +1,8 @@
 ---
 name: Unencrypted communications
 severity: high
-cvss-score: 6.5
-cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N
+cvss-score: 5.9
+cvss-vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N
 cwe-id: CWE-319
 cwe-name: Cleartext Transmission of Sensitive Information
 compliance:
@@ -10,7 +10,7 @@ compliance:
   ISO 27001: A.5.14, A.8.9, A.8.24
   owasp10: A2
   pci: 4.1, 6.5.4
-  PCI v4.0: pci4-4.2.1, pci4-6.2.4
+  PCI-DSS v4.0.1: 4.2.1, 6.2.4
 
 ---            
 

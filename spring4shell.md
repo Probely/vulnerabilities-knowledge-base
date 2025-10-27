@@ -1,6 +1,6 @@
 ---
 name: Spring4Shell
-severity: high
+severity: critical
 cvss-score: 10.0
 cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
 cwe-id: CWE-94
@@ -8,7 +8,7 @@ cwe-name: Improper Control of Generation of Code ('Code Injection')
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.5.33, A.5.34, A.8.3, A.8.9, A.8.12
-  PCI v4.0: pci4-6.2.4
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 
