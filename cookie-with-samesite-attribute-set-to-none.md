@@ -2,15 +2,15 @@
 name: Cookie with SameSite attribute set to None
 severity: low
 cvss-score: 3.1
-cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
+cvss-vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
 cwe-id: CWE-1275
 cwe-name: Sensitive Cookie with Improper SameSite Attribute
 compliance:
   HIPAA: 164.306(a), 164.312(c)(1), 164.312(e)(1)
-  ISO 27001: A.5.14, A.8.9, A.8.24
+  ISO 27001: A.5.14, A.8.9, A.8.24, A.8.25
   owasp10: A2, A7
   pci: 4.1, 6.5.4, 6.5.10
-  PCI v4.0: pci4-4.2.1, pci4-6.2.4
+  PCI-DSS v4.0.1: 4.2.1, 6.2.4
 
 ---            
 

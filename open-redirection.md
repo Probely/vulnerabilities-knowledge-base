@@ -1,13 +1,14 @@
 ---
 name: Open redirection
-severity: low
+severity: medium
 cvss-score: 8.2
-cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:N
+cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:N
 cwe-id: CWE-601
 cwe-name: URL Redirection to Untrusted Site ('Open Redirect')
 compliance:
   HIPAA: 164.306(a)
-  PCI v4.0: pci4-6.2.4
+  ISO 27001: A.8.25
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 

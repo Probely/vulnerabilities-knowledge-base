@@ -1,16 +1,17 @@
 ---
 name: Reflected cross-site scripting
 severity: high
-cvss-score: 6.1
-cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+cvss-score: 8.2
+cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N
 cwe-id: CWE-79
 cwe-name: Improper Neutralization of Input During Web Page Generation ('Cross-site
   Scripting')
 compliance:
   HIPAA: 164.306(a)
+  ISO 27001: A.8.25
   owasp10: A3
   pci: 6.5.7
-  PCI v4.0: pci4-6.2.4
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 

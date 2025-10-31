@@ -1,15 +1,15 @@
 ---
 name: Remote File Inclusion
 severity: high
-cvss-score: 5.3
-cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-cwe-id: '98'
+cvss-score: 7.5
+cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+cwe-id: CWE-98
 cwe-name: Improper Control of Filename for Include/Require Statement in PHP Program
 compliance:
   HIPAA: 164.306(a)
-  ISO 27001: A.5.33, A.5.34, A.8.3, A.8.4, A.8.12
+  ISO 27001: A.5.33, A.5.34, A.8.3, A.8.4, A.8.12, A.8.25
   pci: 6.5.1
-  PCI v4.0: pci4-6.2.4
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 

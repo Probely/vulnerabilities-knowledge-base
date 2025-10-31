@@ -2,14 +2,14 @@
 name: XML external entity injection
 severity: high
 cvss-score: 7.5
-cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
 cwe-id: CWE-611
 cwe-name: Improper Restriction of XML External Entity Reference
 compliance:
   HIPAA: 164.306(a)
-  ISO 27001: A.8.9
+  ISO 27001: A.8.9, A.8.25
   owasp10: A5
-  PCI v4.0: pci4-6.2.4
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 

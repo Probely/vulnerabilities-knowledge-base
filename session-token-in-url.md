@@ -2,15 +2,15 @@
 name: Session Token in URL
 severity: medium
 cvss-score: 5.9
-cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:N
+cvss-vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:N
 cwe-id: CWE-200
 cwe-name: Exposure of Sensitive Information to an Unauthorized Actor
 compliance:
   HIPAA: 164.306(a)
-  ISO 27001: A.8.2, A.8.3
+  ISO 27001: A.8.2, A.8.3, A.8.25
   owasp10: A2, A7
   pci: 6.5.10
-  PCI v4.0: pci4-6.2.4
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 

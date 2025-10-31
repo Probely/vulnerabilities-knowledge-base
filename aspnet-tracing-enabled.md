@@ -1,8 +1,8 @@
 ---
 name: ASP.NET tracing enabled
 severity: high
-cvss-score: 9.1
-cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+cvss-score: 8.2
+cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L
 cwe-id: CWE-11
 cwe-name: 'ASP.NET Misconfiguration: Creating Debug Binary'
 compliance:
@@ -10,7 +10,7 @@ compliance:
   ISO 27001: A.5.33, A.5.34, A.8.4, A.8.9, A.8.12
   owasp10: A5
   pci: 6.5.5
-  PCI v4.0: pci4-6.2.4
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 

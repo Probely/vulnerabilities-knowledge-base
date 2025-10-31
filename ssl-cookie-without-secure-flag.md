@@ -1,15 +1,16 @@
 ---
 name: SSL cookie without Secure flag
-severity: low
-cvss-score: 3.1
-cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
+severity: medium
+cvss-score: 5.3
+cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: CWE-614
 cwe-name: Sensitive Cookie in HTTPS Session Without 'Secure' Attribute
 compliance:
   HIPAA: 164.306(a)
+  ISO 27001: A.8.25
   owasp10: A2, A7
   pci: 6.5.10
-  PCI v4.0: pci4-6.2.4
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 

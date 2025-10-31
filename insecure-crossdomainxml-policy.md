@@ -1,15 +1,15 @@
 ---
 name: Insecure crossdomain.xml policy
-severity: low
-cvss-score: 6.5
-cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+severity: high
+cvss-score: 8.2
+cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N
 cwe-id: CWE-942
 cwe-name: Permissive Cross-domain Policy with Untrusted Domains
 compliance:
   HIPAA: 164.306(a)
-  ISO 27001: A.8.2, A.8.3, A.8.9
+  ISO 27001: A.8.2, A.8.3, A.8.9, A.8.25
   owasp10: A5
-  PCI v4.0: pci4-6.2.4
+  PCI-DSS v4.0.1: 6.2.4
 
 ---            
 
