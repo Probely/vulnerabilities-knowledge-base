@@ -5,6 +5,7 @@ cvss-score: 5.9
 cvss-vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N
 cwe-id: CWE-319
 cwe-name: Cleartext Transmission of Sensitive Information
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a), 164.312(c)(1), 164.312(e)(1)
   ISO 27001: A.5.14, A.8.9, A.8.24

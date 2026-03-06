@@ -5,6 +5,7 @@ cvss-score: 7.3
 cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
 cwe-id: CWE-502
 cwe-name: Deserialization of Untrusted Data
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a), 164.312(c)(1)
   ISO 27001: A.8.25

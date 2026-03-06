@@ -6,6 +6,7 @@ cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N
 cwe-id: CWE-79
 cwe-name: Improper Neutralization of Input During Web Page Generation ('Cross-site
   Scripting')
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.8.25

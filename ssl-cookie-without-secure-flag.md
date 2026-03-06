@@ -5,6 +5,7 @@ cvss-score: 5.3
 cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: CWE-614
 cwe-name: Sensitive Cookie in HTTPS Session Without 'Secure' Attribute
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.8.25

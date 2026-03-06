@@ -5,6 +5,7 @@ cvss-score: 6.5
 cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
 cwe-id: CWE-352
 cwe-name: Cross-Site Request Forgery (CSRF)
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.8.2, A.8.3, A.8.25

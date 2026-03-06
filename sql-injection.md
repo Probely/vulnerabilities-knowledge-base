@@ -5,6 +5,7 @@ cvss-score: 9.3
 cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N
 cwe-id: CWE-89
 cwe-name: SQL Injection
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.5.33, A.5.34, A.8.3, A.8.12, A.8.25

@@ -5,6 +5,7 @@ cvss-score: 5.3
 cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: CWE-489
 cwe-name: Active Debug Code
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a), 164.312(a)(1), 164.312(d)
   ISO 27001: A.5.33, A.5.34, A.8.4, A.8.9, A.8.12, A.8.15, A.8.25
