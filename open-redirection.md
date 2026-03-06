@@ -5,6 +5,7 @@ cvss-score: 8.2
 cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:N
 cwe-id: CWE-601
 cwe-name: URL Redirection to Untrusted Site ('Open Redirect')
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.8.25

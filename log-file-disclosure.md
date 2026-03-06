@@ -5,6 +5,7 @@ cvss-score: 5.3
 cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: CWE-200
 cwe-name: Exposure of Sensitive Information to an Unauthorized Actor
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.8.9, A.8.15

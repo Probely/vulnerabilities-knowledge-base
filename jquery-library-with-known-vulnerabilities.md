@@ -5,6 +5,7 @@ cvss-score: 4.8
 cvss-vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
 cwe-id: CWE-1035
 cwe-name: OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.8.9

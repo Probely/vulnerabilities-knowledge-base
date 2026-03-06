@@ -5,6 +5,7 @@ cvss-score: 3.1
 cvss-vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
 cwe-id: CWE-16
 cwe-name: Configuration
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.8.25

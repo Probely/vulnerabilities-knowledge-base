@@ -5,6 +5,7 @@ cvss-score: 3.7
 cvss-vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
 cwe-id: CWE-93
 cwe-name: Improper Neutralization of CRLF Sequences ('CRLF Injection')
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.5.33, A.5.34, A.8.3, A.8.12

@@ -5,6 +5,7 @@ cvss-score: 7.5
 cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
 cwe-id: CWE-611
 cwe-name: Improper Restriction of XML External Entity Reference
+correlatable: SAST
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.8.9, A.8.25
