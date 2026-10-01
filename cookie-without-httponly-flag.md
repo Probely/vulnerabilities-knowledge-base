@@ -3,8 +3,8 @@ name: Cookie without HttpOnly flag
 severity: low
 cvss-score: 3.1
 cvss-vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N
-cwe-id: CWE-16
-cwe-name: Configuration
+cwe-id: CWE-1004
+cwe-name: Sensitive Cookie Without 'HttpOnly' Flag
 correlatable: SAST
 compliance:
   HIPAA: 164.306(a)

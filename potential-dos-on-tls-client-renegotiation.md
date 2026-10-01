@@ -3,8 +3,8 @@ name: Potential DoS on TLS Client Renegotiation
 severity: low
 cvss-score: 5.3
 cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-cwe-id: CWE-264
-cwe-name: Permissions, Privileges, and Access Controls
+cwe-id: CWE-400
+cwe-name: Uncontrolled Resource Consumption
 compliance:
   HIPAA: 164.306(a), 164.312(c)(1), 164.312(e)(1)
   ISO 27001: A.5.14, A.8.9, A.8.24

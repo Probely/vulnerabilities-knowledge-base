@@ -3,8 +3,8 @@ name: Browser content sniffing allowed
 severity: low
 cvss-score: 4.7
 cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N
-cwe-id: CWE-16
-cwe-name: Configuration
+cwe-id: CWE-693
+cwe-name: Protection Mechanism Failure
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.8.9

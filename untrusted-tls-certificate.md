@@ -3,8 +3,8 @@ name: Untrusted TLS certificate
 severity: medium
 cvss-score: 5.3
 cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-cwe-id: CWE-16
-cwe-name: Configuration
+cwe-id: CWE-295
+cwe-name: Improper Certificate Validation
 correlatable: SAST
 compliance:
   HIPAA: 164.306(a), 164.312(c)(1), 164.312(e)(1)
