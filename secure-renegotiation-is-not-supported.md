@@ -3,8 +3,8 @@ name: Secure Renegotiation is not supported
 severity: low
 cvss-score: 4.2
 cvss-vector: CVSS:3.0/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-cwe-id: CWE-264
-cwe-name: Permissions, Privileges, and Access Controls
+cwe-id: CWE-757
+cwe-name: Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')
 compliance:
   HIPAA: 164.306(a), 164.312(c)(1), 164.312(e)(1)
   ISO 27001: A.5.14, A.8.9, A.8.24

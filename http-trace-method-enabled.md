@@ -3,8 +3,8 @@ name: HTTP TRACE method enabled
 severity: low
 cvss-score: 3.7
 cvss-vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
-cwe-id: CWE-16
-cwe-name: Configuration
+cwe-id: CWE-693
+cwe-name: Protection Mechanism Failure
 compliance:
   HIPAA: 164.306(a)
   ISO 27001: A.8.9

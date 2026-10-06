@@ -3,8 +3,8 @@ name: Certificate with insufficient key size or usage, or insecure signature alg
 severity: low
 cvss-score: 4.2
 cvss-vector: CVSS:3.0/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-cwe-id: CWE-310
-cwe-name: Cryptographic Issues
+cwe-id: CWE-326
+cwe-name: Inadequate Encryption Strength
 correlatable: SAST
 compliance:
   HIPAA: 164.306(a), 164.312(c)(1), 164.312(e)(1)
