@@ -2,7 +2,7 @@
 name: markdown-it library with known vulnerabilities
 severity: low
 cvss-score: 4.8
-cvss-vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+cvss-vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
 cwe-id: CWE-1395
 cwe-name: Dependency on Vulnerable Third-Party Component
 compliance:

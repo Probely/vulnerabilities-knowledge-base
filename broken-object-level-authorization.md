@@ -1,8 +1,8 @@
 ---
 name: Broken Object Level Authorization
-severity: critical
-cvss-score: 9.1
-cvss-vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+severity: high
+cvss-score: 8.1
+cvss-vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
 cwe-id: CWE-639
 cwe-name: Authorization Bypass Through User-Controlled Key
 compliance:

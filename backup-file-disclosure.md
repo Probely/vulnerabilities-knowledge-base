@@ -1,6 +1,6 @@
 ---
 name: Backup file disclosure
-severity: medium
+severity: low
 cvss-score: 5.3
 cvss-vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 cwe-id: CWE-200
